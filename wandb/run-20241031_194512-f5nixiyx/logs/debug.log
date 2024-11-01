@@ -1,0 +1,34 @@
+2024-10-31 19:45:12,885 INFO    MainThread:22364 [wandb_setup.py:_flush():79] Current SDK version is 0.18.5
+2024-10-31 19:45:12,885 INFO    MainThread:22364 [wandb_setup.py:_flush():79] Configure stats pid to 22364
+2024-10-31 19:45:12,885 INFO    MainThread:22364 [wandb_setup.py:_flush():79] Loading settings from C:\Users\kibona9\.config\wandb\settings
+2024-10-31 19:45:12,886 INFO    MainThread:22364 [wandb_setup.py:_flush():79] Loading settings from C:\GiHub repos\ISU\wandb\settings
+2024-10-31 19:45:12,886 INFO    MainThread:22364 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-31 19:45:12,886 INFO    MainThread:22364 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-31 19:45:12,886 INFO    MainThread:22364 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': '1. model training with pytorch.py', 'program_abspath': 'c:\\GiHub repos\\ISU\\1. model training with pytorch.py', 'program': 'c:\\GiHub repos\\ISU\\1. model training with pytorch.py'}
+2024-10-31 19:45:12,886 INFO    MainThread:22364 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-31 19:45:12,886 INFO    MainThread:22364 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-31 19:45:12,886 INFO    MainThread:22364 [wandb_init.py:_log_setup():534] Logging user logs to C:\GiHub repos\ISU\wandb\run-20241031_194512-f5nixiyx\logs\debug.log
+2024-10-31 19:45:12,886 INFO    MainThread:22364 [wandb_init.py:_log_setup():535] Logging internal logs to C:\GiHub repos\ISU\wandb\run-20241031_194512-f5nixiyx\logs\debug-internal.log
+2024-10-31 19:45:12,886 INFO    MainThread:22364 [wandb_init.py:init():621] calling init triggers
+2024-10-31 19:45:12,886 INFO    MainThread:22364 [wandb_init.py:init():628] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.01, 'epochs': 10, 'batch_size': 64, 'hidden_layers': [128, 64], 'dropout_rate': 0.2}
+2024-10-31 19:45:12,886 INFO    MainThread:22364 [wandb_init.py:init():671] starting backend
+2024-10-31 19:45:12,886 INFO    MainThread:22364 [wandb_init.py:init():675] sending inform_init request
+2024-10-31 19:45:12,888 INFO    MainThread:22364 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-10-31 19:45:12,889 INFO    MainThread:22364 [wandb_init.py:init():688] backend started and connected
+2024-10-31 19:45:12,890 INFO    MainThread:22364 [wandb_init.py:init():783] updated telemetry
+2024-10-31 19:45:12,891 INFO    MainThread:22364 [wandb_init.py:init():816] communicating run to backend with 90.0 second timeout
+2024-10-31 19:45:13,517 INFO    MainThread:22364 [wandb_init.py:init():867] starting run threads in backend
+2024-10-31 19:45:13,645 INFO    MainThread:22364 [wandb_run.py:_console_start():2463] atexit reg
+2024-10-31 19:45:13,645 INFO    MainThread:22364 [wandb_run.py:_redirect():2311] redirect: wrap_raw
+2024-10-31 19:45:13,645 INFO    MainThread:22364 [wandb_run.py:_redirect():2376] Wrapping output streams.
+2024-10-31 19:45:13,645 INFO    MainThread:22364 [wandb_run.py:_redirect():2401] Redirects installed.
+2024-10-31 19:45:13,646 INFO    MainThread:22364 [wandb_init.py:init():911] run started, returning control to user process
+2024-10-31 19:45:16,301 INFO    MainThread:22364 [wandb_watch.py:_watch():71] Watching
+2024-10-31 19:46:15,319 INFO    MainThread:22364 [wandb_run.py:_finish():2158] finishing run kibona9-iowa-state-university/mnist-mlops/f5nixiyx
+2024-10-31 19:46:15,319 INFO    MainThread:22364 [wandb_run.py:_atexit_cleanup():2426] got exitcode: 0
+2024-10-31 19:46:15,319 INFO    MainThread:22364 [wandb_run.py:_restore():2408] restore
+2024-10-31 19:46:15,319 INFO    MainThread:22364 [wandb_run.py:_restore():2414] restore done
+2024-10-31 19:46:17,231 INFO    MainThread:22364 [wandb_run.py:_footer_history_summary_info():3975] rendering history
+2024-10-31 19:46:17,232 INFO    MainThread:22364 [wandb_run.py:_footer_history_summary_info():4007] rendering summary
+2024-10-31 19:46:17,241 INFO    MainThread:22364 [wandb_run.py:_footer_sync_info():3934] logging synced files

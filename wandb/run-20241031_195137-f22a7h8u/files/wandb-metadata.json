@@ -1,0 +1,39 @@
+{
+  "os": "Windows-11-10.0.22631-SP0",
+  "python": "3.12.7",
+  "startedAt": "2024-11-01T00:51:37.033897Z",
+  "program": "c:\\GiHub repos\\ISU\\2. model monitoring and logging with weights and biases.py",
+  "codePath": "2. model monitoring and logging with weights and biases.py",
+  "email": "kibona9@iastate.edu",
+  "root": "C:\\GiHub repos\\ISU",
+  "host": "baskar-lab07",
+  "username": "kibona9",
+  "executable": "C:\\Users\\kibona9\\AppData\\Local\\anaconda3\\envs\\kibona_1\\python.exe",
+  "codePathLocal": "2. model monitoring and logging with weights and biases.py",
+  "cpu_count": 20,
+  "cpu_count_logical": 28,
+  "gpu": "NVIDIA T400 4GB",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "1023280148480",
+      "used": "150180810752"
+    }
+  },
+  "memory": {
+    "total": "34031251456"
+  },
+  "cpu": {
+    "count": 20,
+    "countLogical": 28
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA T400 4GB",
+      "memoryTotal": "4294967296",
+      "cudaCores": 384,
+      "architecture": "Turing"
+    }
+  ],
+  "cudaVersion": "12.5"
+}

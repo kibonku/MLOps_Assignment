@@ -1,0 +1,33 @@
+2024-10-31 19:51:37,031 INFO    MainThread:25976 [wandb_setup.py:_flush():79] Current SDK version is 0.18.5
+2024-10-31 19:51:37,031 INFO    MainThread:25976 [wandb_setup.py:_flush():79] Configure stats pid to 25976
+2024-10-31 19:51:37,031 INFO    MainThread:25976 [wandb_setup.py:_flush():79] Loading settings from C:\Users\kibona9\.config\wandb\settings
+2024-10-31 19:51:37,032 INFO    MainThread:25976 [wandb_setup.py:_flush():79] Loading settings from C:\GiHub repos\ISU\wandb\settings
+2024-10-31 19:51:37,032 INFO    MainThread:25976 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-31 19:51:37,032 INFO    MainThread:25976 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-31 19:51:37,032 INFO    MainThread:25976 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': '2. model monitoring and logging with weights and biases.py', 'program_abspath': 'c:\\GiHub repos\\ISU\\2. model monitoring and logging with weights and biases.py', 'program': 'c:\\GiHub repos\\ISU\\2. model monitoring and logging with weights and biases.py'}
+2024-10-31 19:51:37,032 INFO    MainThread:25976 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-31 19:51:37,032 INFO    MainThread:25976 [wandb_init.py:_log_setup():534] Logging user logs to C:\GiHub repos\ISU\wandb\run-20241031_195137-f22a7h8u\logs\debug.log
+2024-10-31 19:51:37,032 INFO    MainThread:25976 [wandb_init.py:_log_setup():535] Logging internal logs to C:\GiHub repos\ISU\wandb\run-20241031_195137-f22a7h8u\logs\debug-internal.log
+2024-10-31 19:51:37,032 INFO    MainThread:25976 [wandb_init.py:init():621] calling init triggers
+2024-10-31 19:51:37,032 INFO    MainThread:25976 [wandb_init.py:init():628] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.01, 'epochs': 10, 'batch_size': 64, 'hidden_layers': [128, 64], 'dropout_rate': 0.2}
+2024-10-31 19:51:37,032 INFO    MainThread:25976 [wandb_init.py:init():671] starting backend
+2024-10-31 19:51:37,032 INFO    MainThread:25976 [wandb_init.py:init():675] sending inform_init request
+2024-10-31 19:51:37,033 INFO    MainThread:25976 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-10-31 19:51:37,033 INFO    MainThread:25976 [wandb_init.py:init():688] backend started and connected
+2024-10-31 19:51:37,034 INFO    MainThread:25976 [wandb_init.py:init():783] updated telemetry
+2024-10-31 19:51:37,035 INFO    MainThread:25976 [wandb_init.py:init():816] communicating run to backend with 90.0 second timeout
+2024-10-31 19:51:37,312 INFO    MainThread:25976 [wandb_init.py:init():867] starting run threads in backend
+2024-10-31 19:51:37,392 INFO    MainThread:25976 [wandb_run.py:_console_start():2463] atexit reg
+2024-10-31 19:51:37,392 INFO    MainThread:25976 [wandb_run.py:_redirect():2311] redirect: wrap_raw
+2024-10-31 19:51:37,392 INFO    MainThread:25976 [wandb_run.py:_redirect():2376] Wrapping output streams.
+2024-10-31 19:51:37,392 INFO    MainThread:25976 [wandb_run.py:_redirect():2401] Redirects installed.
+2024-10-31 19:51:37,394 INFO    MainThread:25976 [wandb_init.py:init():911] run started, returning control to user process
+2024-10-31 19:51:37,422 INFO    MainThread:25976 [wandb_watch.py:_watch():71] Watching
+2024-10-31 19:52:41,691 INFO    MainThread:25976 [wandb_run.py:_finish():2158] finishing run kibona9-iowa-state-university/mnist-mlops/f22a7h8u
+2024-10-31 19:52:41,692 INFO    MainThread:25976 [wandb_run.py:_atexit_cleanup():2426] got exitcode: 0
+2024-10-31 19:52:41,692 INFO    MainThread:25976 [wandb_run.py:_restore():2408] restore
+2024-10-31 19:52:41,692 INFO    MainThread:25976 [wandb_run.py:_restore():2414] restore done
+2024-10-31 19:52:43,632 INFO    MainThread:25976 [wandb_run.py:_footer_history_summary_info():3975] rendering history
+2024-10-31 19:52:43,633 INFO    MainThread:25976 [wandb_run.py:_footer_history_summary_info():4007] rendering summary
+2024-10-31 19:52:43,639 INFO    MainThread:25976 [wandb_run.py:_footer_sync_info():3934] logging synced files
