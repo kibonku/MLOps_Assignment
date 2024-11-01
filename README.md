@@ -100,7 +100,7 @@ project-folder/
 ├── test_kibona.png                  # MNIST test image
 ├── response_1730423892273.json      # MNIST test response json file
 ├── requirements.txt                 # Python dependencies
-├── workflow/depoly.yml              # CI/CD Pipeline
+├── workflow/deploy.yml              # CI/CD Pipeline
 ├── README.md                        # Project documentation
 └── other-files                      # Other supporting files
 ```
