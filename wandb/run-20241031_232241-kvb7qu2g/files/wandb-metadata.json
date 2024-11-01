@@ -1,0 +1,43 @@
+{
+  "os": "Windows-11-10.0.22631-SP0",
+  "python": "3.12.7",
+  "startedAt": "2024-11-01T04:22:41.018959Z",
+  "program": "c:\\GiHub repos\\MLOps_Assignment\\train_ver2.py",
+  "codePath": "train_ver2.py",
+  "git": {
+    "remote": "https://github.com/kibonku/MLOps_Assignment.git",
+    "commit": "523c0c625f0d1a1436ff18aa75615553d79d1d2f"
+  },
+  "email": "kibona9@iastate.edu",
+  "root": "C:\\GiHub repos\\MLOps_Assignment",
+  "host": "baskar-lab07",
+  "username": "kibona9",
+  "executable": "C:\\Users\\kibona9\\AppData\\Local\\anaconda3\\envs\\kibona_1\\python.exe",
+  "codePathLocal": "train_ver2.py",
+  "cpu_count": 20,
+  "cpu_count_logical": 28,
+  "gpu": "NVIDIA T400 4GB",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "1023280148480",
+      "used": "186891780096"
+    }
+  },
+  "memory": {
+    "total": "34031251456"
+  },
+  "cpu": {
+    "count": 20,
+    "countLogical": 28
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA T400 4GB",
+      "memoryTotal": "4294967296",
+      "cudaCores": 384,
+      "architecture": "Turing"
+    }
+  ],
+  "cudaVersion": "12.5"
+}

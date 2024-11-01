@@ -96,7 +96,9 @@ project-folder/
 ├── Dockerfile                       # Dockerfile for containerizing the application
 ├── main.py                          # FastAPI application code
 ├── train.py                         # Model training code
-├── mnist_model.pth                  # Trained MNIST Model
+├── train_ver2.py                    # Model training code version 2
+├── mnist_model.pth                  # Trained MNIST Model by train.py
+├── mnist_model_ver2.pth             # Trained MNIST Model by train_ver2.py
 ├── test_kibona.png                  # MNIST test image
 ├── response_1730423892273.json      # MNIST test response json file
 ├── requirements.txt                 # Python dependencies

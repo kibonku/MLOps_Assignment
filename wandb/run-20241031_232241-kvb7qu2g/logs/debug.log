@@ -1,0 +1,33 @@
+2024-10-31 23:22:41,012 INFO    MainThread:9904 [wandb_setup.py:_flush():79] Current SDK version is 0.18.5
+2024-10-31 23:22:41,012 INFO    MainThread:9904 [wandb_setup.py:_flush():79] Configure stats pid to 9904
+2024-10-31 23:22:41,012 INFO    MainThread:9904 [wandb_setup.py:_flush():79] Loading settings from C:\Users\kibona9\.config\wandb\settings
+2024-10-31 23:22:41,012 INFO    MainThread:9904 [wandb_setup.py:_flush():79] Loading settings from C:\GiHub repos\MLOps_Assignment\wandb\settings
+2024-10-31 23:22:41,012 INFO    MainThread:9904 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-31 23:22:41,012 INFO    MainThread:9904 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-31 23:22:41,017 INFO    MainThread:9904 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'train_ver2.py', 'program_abspath': 'c:\\GiHub repos\\MLOps_Assignment\\train_ver2.py', 'program': 'c:\\GiHub repos\\MLOps_Assignment\\train_ver2.py'}
+2024-10-31 23:22:41,017 INFO    MainThread:9904 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-31 23:22:41,017 INFO    MainThread:9904 [wandb_init.py:_log_setup():534] Logging user logs to C:\GiHub repos\MLOps_Assignment\wandb\run-20241031_232241-kvb7qu2g\logs\debug.log
+2024-10-31 23:22:41,017 INFO    MainThread:9904 [wandb_init.py:_log_setup():535] Logging internal logs to C:\GiHub repos\MLOps_Assignment\wandb\run-20241031_232241-kvb7qu2g\logs\debug-internal.log
+2024-10-31 23:22:41,017 INFO    MainThread:9904 [wandb_init.py:init():621] calling init triggers
+2024-10-31 23:22:41,017 INFO    MainThread:9904 [wandb_init.py:init():628] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.001, 'batch_size': 64, 'epochs': 10, 'dropout_rate': 0.2}
+2024-10-31 23:22:41,017 INFO    MainThread:9904 [wandb_init.py:init():671] starting backend
+2024-10-31 23:22:41,017 INFO    MainThread:9904 [wandb_init.py:init():675] sending inform_init request
+2024-10-31 23:22:41,018 INFO    MainThread:9904 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-10-31 23:22:41,018 INFO    MainThread:9904 [wandb_init.py:init():688] backend started and connected
+2024-10-31 23:22:41,020 INFO    MainThread:9904 [wandb_init.py:init():783] updated telemetry
+2024-10-31 23:22:41,048 INFO    MainThread:9904 [wandb_init.py:init():816] communicating run to backend with 90.0 second timeout
+2024-10-31 23:22:41,326 INFO    MainThread:9904 [wandb_init.py:init():867] starting run threads in backend
+2024-10-31 23:22:41,419 INFO    MainThread:9904 [wandb_run.py:_console_start():2463] atexit reg
+2024-10-31 23:22:41,419 INFO    MainThread:9904 [wandb_run.py:_redirect():2311] redirect: wrap_raw
+2024-10-31 23:22:41,419 INFO    MainThread:9904 [wandb_run.py:_redirect():2376] Wrapping output streams.
+2024-10-31 23:22:41,419 INFO    MainThread:9904 [wandb_run.py:_redirect():2401] Redirects installed.
+2024-10-31 23:22:41,423 INFO    MainThread:9904 [wandb_init.py:init():911] run started, returning control to user process
+2024-10-31 23:22:41,455 INFO    MainThread:9904 [wandb_watch.py:_watch():71] Watching
+2024-10-31 23:24:31,943 INFO    MainThread:9904 [wandb_run.py:_finish():2158] finishing run kibona9-iowa-state-university/mnist-mlops/kvb7qu2g
+2024-10-31 23:24:31,943 INFO    MainThread:9904 [wandb_run.py:_atexit_cleanup():2426] got exitcode: 0
+2024-10-31 23:24:31,944 INFO    MainThread:9904 [wandb_run.py:_restore():2408] restore
+2024-10-31 23:24:31,944 INFO    MainThread:9904 [wandb_run.py:_restore():2414] restore done
+2024-10-31 23:24:34,592 INFO    MainThread:9904 [wandb_run.py:_footer_history_summary_info():3975] rendering history
+2024-10-31 23:24:34,592 INFO    MainThread:9904 [wandb_run.py:_footer_history_summary_info():4007] rendering summary
+2024-10-31 23:24:34,598 INFO    MainThread:9904 [wandb_run.py:_footer_sync_info():3934] logging synced files

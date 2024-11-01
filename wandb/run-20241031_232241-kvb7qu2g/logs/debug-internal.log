@@ -1,0 +1,17 @@
+{"time":"2024-10-31T23:22:41.0212983-05:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-31T23:22:41.0218009-05:00","level":"INFO","msg":"created symlink","path":"C:\\GiHub repos\\MLOps_Assignment\\wandb\\run-20241031_232241-kvb7qu2g\\logs\\debug-core.log"}
+{"time":"2024-10-31T23:22:41.1298189-05:00","level":"INFO","msg":"created new stream","id":"kvb7qu2g"}
+{"time":"2024-10-31T23:22:41.1298189-05:00","level":"INFO","msg":"stream: started","id":"kvb7qu2g"}
+{"time":"2024-10-31T23:22:41.1298189-05:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"kvb7qu2g"}}
+{"time":"2024-10-31T23:22:41.1298189-05:00","level":"INFO","msg":"sender: started","stream_id":"kvb7qu2g"}
+{"time":"2024-10-31T23:22:41.1298189-05:00","level":"INFO","msg":"handler: started","stream_id":{"value":"kvb7qu2g"}}
+{"time":"2024-10-31T23:22:41.341534-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-31T23:24:31.9453649-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-31T23:24:31.9453649-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-31T23:24:32.9566181-05:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.7699693}],"total_operations":1}}
+{"time":"2024-10-31T23:24:33.2027695-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-31T23:24:34.6006866-05:00","level":"INFO","msg":"stream: closing","id":"kvb7qu2g"}
+{"time":"2024-10-31T23:24:34.6006866-05:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"kvb7qu2g"}}
+{"time":"2024-10-31T23:24:34.6006866-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"kvb7qu2g"}}
+{"time":"2024-10-31T23:24:34.6006866-05:00","level":"INFO","msg":"sender: closed","stream_id":"kvb7qu2g"}
+{"time":"2024-10-31T23:24:34.6006866-05:00","level":"INFO","msg":"stream: closed","id":"kvb7qu2g"}

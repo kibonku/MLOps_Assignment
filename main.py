@@ -1,4 +1,4 @@
-from fastapi import FastAPI, File, UploadFile
+from fastapi import FastAPI, File, UploadFile, HTTPException
 from PIL import Image
 import torch
 import torchvision.transforms as transforms
@@ -37,11 +37,19 @@ preprocess = transforms.Compose([
     transforms.Normalize((0.1307,), (0.3081,))  # Normalize with MNIST dataset mean and std
 ])
 
+# Define the predict endpoint with input validation and error handling
 @app.post("/predict/")
 async def predict(file: UploadFile = File(...)):
+    # Error handling for invalid file type
+    if file.content_type not in ["image/jpeg", "image/png"]:
+        raise HTTPException(status_code=400, detail="Invalid file type. Please upload a JPEG or PNG image.")
+
     # Load and preprocess the image
-    image = Image.open(io.BytesIO(await file.read())).convert('L')
-    image = preprocess(image).unsqueeze(0)
+    try:
+        image = Image.open(io.BytesIO(await file.read())).convert('L')
+        image = preprocess(image).unsqueeze(0)
+    except Exception as e:
+        return {"error": str(e)}
 
     # Model inference
     with torch.no_grad():

@@ -23,7 +23,7 @@ class LogisticRegression(nn.Module):
         # FIXME: Implement the forward pass
         return self.network(x)
 
-# Initialize wandb
+# Hyperparameters: Experiment with different batch sizes, learning rates, and dropout rates.
 config = {
     "learning_rate": 0.01,
     "epochs": 10,
