@@ -15,7 +15,7 @@ Key components of this project:
 
 ### Prerequisites
 
-- **Python 3.7+**
+- **Python 3.10+**
 - **pip** package manager
 - **Weights and Biases** account (optional)
 
