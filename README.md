@@ -87,7 +87,7 @@ Go to `http://localhost:8000/docs` in your browser to test the `/predict` endpoi
 
 Model training and performance tracking are logged in Weights and Biases (wandb). View the full report at the link below:
 
-[wandb Report URL](https://wandb.ai/kibona9-iowa-state-university/mnist-mlops?nw=nwuserkibona9)  <!-- Replace with the actual wandb report URL -->
+[wandb Report URL](https://wandb.ai/kibona9-iowa-state-university/mnist-mlops)  <!-- Replace with the actual wandb report URL -->
 
 ## Project Structure
 
