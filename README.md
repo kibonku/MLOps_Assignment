@@ -103,11 +103,3 @@ project-folder/
 ├── README.md                        # Project documentation
 └── other-files                      # Other supporting files
 ```
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-If you have questions or encounter issues, please open an issue in the GitHub repository.
