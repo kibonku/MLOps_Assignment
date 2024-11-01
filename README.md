@@ -93,16 +93,16 @@ Model training and performance tracking are logged in Weights and Biases (wandb)
 
 ```
 project-folder/
-├── Dockerfile                       # Dockerfile for containerizing the application
-├── main.py                          # FastAPI application code
-├── train.py                         # Model training code
-├── train_ver2.py                    # Model training code version 2
-├── mnist_model.pth                  # Trained MNIST Model by train.py
-├── mnist_model_ver2.pth             # Trained MNIST Model by train_ver2.py
-├── test_kibona.png                  # MNIST test image
-├── response_1730423892273.json      # MNIST test response json file
-├── requirements.txt                 # Python dependencies
-├── workflow/deploy.yml              # CI/CD Pipeline
-├── README.md                        # Project documentation
-└── other-files                      # Other supporting files
+├── Dockerfile                     # Dockerfile for containerizing the application
+├── main.py                        # FastAPI application code
+├── train.py                       # Model training code
+├── train_ver2.py                  # Model training code model (different model architecutres & hyperparameters)
+├── mnist_model.pth                # Trained MNIST Model by train.py
+├── mnist_model_ver2.pth           # Trained MNIST Model by train_ver2.py
+├── test_kibona.png                # MNIST test image
+├── response_1730423892273.json    # MNIST test response json file
+├── requirements.txt               # Python dependencies
+├── workflow/deploy.yml            # CI/CD Pipeline
+├── README.md                      # Project documentation
+└── other-files                    # Other supporting files
 ```

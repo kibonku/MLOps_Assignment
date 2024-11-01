@@ -7,7 +7,7 @@ import wandb
 class LogisticRegression(nn.Module):
     def __init__(self, input_dim, output_dim):
         super(LogisticRegression, self).__init__()
-        # Model architecture with CNN layers and fully connected layers
+        #* Model architecture with CNN layers and fully connected layers
         self.network = nn.Sequential(
             nn.Conv2d(1, 32, kernel_size=3, stride=1, padding=1),
             nn.ReLU(),
@@ -48,7 +48,7 @@ optimizer = optim.Adam(model.parameters(), lr=config["learning_rate"])
 # Add model monitoring
 wandb.watch(model, log="all")
 
-# Log sample misclassified images
+#* Log sample misclassified images
 def log_misclassifications(model, test_loader):
     misclassified_images = []
     model.eval()
