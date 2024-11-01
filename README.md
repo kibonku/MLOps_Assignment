@@ -22,8 +22,8 @@ Key components of this project:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/yourprojectname.git
-cd yourprojectname
+git clone https://github.com/kibonku/MLOps_Assignment.git
+cd MLOps_Assignment
 ```
 
 ### 2. Install Dependencies
